@@ -8,7 +8,6 @@ int fib(int n) {
     else
         return fib(n - 1) + fib(n - 2);
 }
-
 int main() {
     int n;
     printf("Enter n: ");
@@ -17,3 +16,4 @@ int main() {
     printf("Fibonacci(%d) = %d\n", n, fib(n));
     return 0;
 }
+
